@@ -1,0 +1,24 @@
+# Ignorar arquivos de log da JVM
+hs_err_pid*.log
+replay_pid*.log
+
+# Ignorar logs gerais (opcional, mas comum)
+*.log
+logs/
+
+# Ignorar arquivos específicos do IntelliJ/Eclipse/VS Code (se usar algum IDE)
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Ignorar diretórios de build do Maven
+target/
+
+# Ignorar arquivos .env (chaves de API)
+.env
+
+# Ignorar arquivos compilados do Java
+*.class
